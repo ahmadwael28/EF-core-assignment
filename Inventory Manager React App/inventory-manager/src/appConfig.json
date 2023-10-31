@@ -1,0 +1,15 @@
+{
+    "baseURL": "https://localhost:7201",
+    "services": {
+        "products": {
+            "addProduct": "/api/products",
+            "updateProduct": "/api/products/{id}",
+            "deleteProduct": "/api/products/{id}"
+        },
+        "categories": {
+            "getCategoriesWithProducts": "/api/categories/{id}/withProducts",
+            "getAllCategories": "/api/categories",
+            "addCategory": "/api/categories"
+        }
+    }
+}
